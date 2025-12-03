@@ -30,7 +30,7 @@ source /etc/environment
 ## **2. Télécharger et installer Kafka**
 
 ```bash
-wget https://downloads.apache.org/kafka/3.7.1/kafka_2.12-3.7.1.tgz
+wget https://archive.apache.org/dist/kafka/3.7.1/kafka_2.12-3.7.1.tgz
 sudo tar -xvzf kafka_2.12-3.7.1.tgz -C /opt/
 sudo mv /opt/kafka_2.12-3.7.1 /opt/kafka
 ```
